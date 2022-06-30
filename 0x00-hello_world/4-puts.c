@@ -1,29 +1,26 @@
-/*
-
- * File: 4-puts.c
- * Auth: Pondei Favour
- */
-
 #include <stdio.h>
+
+
 
 /**
 
- * main - Prints "Programming is like building a multilingual
+* main - print the string in the put function
 
- *                puzzle, followed by a new line.
+*
 
- *
+* Description: using the main function
 
- * Return: Always 0.
+* this program prints "Programming is like building a multilingual puzzle
 
- */
+* Return: 0
+
+*/
+
 int main(void)
 
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
-
-
 
 	return (0);
 
