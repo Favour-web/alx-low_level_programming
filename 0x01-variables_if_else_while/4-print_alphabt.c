@@ -7,15 +7,17 @@
  */
 int main(void)
 {
-	char letter;
+	char ch;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		if (ch != 'q' && ch != 'e')
+		{
+			putchar(ch);
+		}
 	}
 
-	putchar('\n');
+	putchar(10); /* this is an ascii code for new line */
 
 	return (0);
 }
