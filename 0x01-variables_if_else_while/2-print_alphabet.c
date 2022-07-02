@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabetic
+ * main - Prints the alphabet in lowercase.
  *
- * Return: Always (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	int ch
-	for (ch = 97; c <= 122; c++)
-	{
-		putchar(ch);
-	}
-	putchar(10); /* this is an ascii code for new line*/
-	
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }
