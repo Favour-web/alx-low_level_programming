@@ -1,9 +1,9 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - print "_putchar"
+ * main - Prints "Holberton" followed by a new line.
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -17,6 +17,6 @@ int main(void)
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
+
 	return (0);
 }
-
