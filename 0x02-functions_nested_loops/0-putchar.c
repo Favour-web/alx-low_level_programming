@@ -1,7 +1,7 @@
-#include "putchar.h"
+#include "putchar.c"
 
 /**
- * main - print "Holberton"
+ * main - print "_putchar"
  *
  * Return: 0
  */
